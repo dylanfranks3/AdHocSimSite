@@ -1,8 +1,10 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Ad-Hoc Network Simulator Docs
+description: Documentation for Dylan Franks' Third Year Project
 theme: just-the-docs
-
+logo: "LOGO.png"
+favicon_ico: ".LOGO.ico"
 url: https://just-the-docs.github.io
-
+enable_copy_code_button: true;
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Source: https://github.com/dylanfranks3/AdHocSim
+include: [docs]

@@ -1,35 +1,78 @@
 ---
 title: Home
-layout: home
+description: welcome bro
+layout: default
+nav_order: 1
 ---
+## This directory is part of a larger set of work for my Warwick Third Year Project (Dissertation). Here I model, create data and simulate Ad-Hoc networks. 
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+### Running the program
+TODO
 
-More specifically, the created site:
 
-- uses a gem-based approach, i.e. uses a `Gemfile` and loads the `just-the-docs` gem
-- uses the [GitHub Pages / Actions workflow] to build and publish the site on GitHub Pages
+### Network model
 
-Other than that, you're free to customize sites that you create with this template, however you like. You can easily change the versions of `just-the-docs` and Jekyll it uses, as well as adding further plugins.
+- Simulator(class)
+    - do ur things
 
-[Browse our documentation][Just the Docs] to learn more about how to use this theme.
+- Network(class)
+    - Attributes:
+        - node container -> list of node(class)
+        - time (wrt. start time of sim) -> float 
+        - length of sim -> float
+        - output(whether to show std.out) -> bool 
+        - interval (how long each time interval is) -> float
+    - Modules:
+        - nextInterval()
+            - check if time + interval > length of sim
+            - time += interval
+            - iterate nodes
+        - statisitcal ones
 
-To get started with creating a site, simply:
+- NANNetwork(class, parent network):
+    - Attributes (append as above):
+    - Modules:
+        - tell nodes to do things with their roles (pass the NANNetwork instance to the function so it can acess data about the nodes)
+        - More analytical (calcRolePercentage)
+        
 
-1. click "[use this template]" to create a GitHub repository
-2. go to Settings > Pages > Build and deployment > Source, and select GitHub Actions
 
-If you want to maintain your docs in the `docs` directory of an existing project repo, see [Hosting your docs from an existing project repo](https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md#hosting-your-docs-from-an-existing-project-repo) in the template README.
+- Node(class)
+    - Attributes:
+        - location (x,y,z) -> class
+        - trace -> path to dataset
+            - use [this](https://arc.net/l/quote/tiraorhu)
+        - index (current in dataset) -> integer
+        - data recieved, data sent -> dictionary/json
 
-----
+    - Modules:
+        - updateLocation
+            - change index as well
 
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+- NANNode(class, parent Node):
+    - Attributes:
+        - masterPreference -> float
 
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[README]: https://github.com/just-the-docs/just-the-docs-template/blob/main/README.md
-[Jekyll]: https://jekyllrb.com
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
+        - 
+    - Modules:
+        - Related NAN modules TODO
+
+
+- Location(class)
+    - Attributes:
+        - pos = [x,y,z]
+    - Modules:
+        - updateLocation(newLocation)
+        - static: distane(pos1,pos2)
+
+
+
+### What i want the 'direct' program to do:
+1. Create nodes
+2. create network
+3. create sim
+4. add location movements of nodes to requests
+5. add packets at time 0 to source of nodes
+6. add requests of packet sending 
+
