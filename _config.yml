@@ -1,8 +1,8 @@
 title: Ad-Hoc Network Simulator Docs
 description: Documentation for Dylan Franks' Third Year Project
 theme: just-the-docs
-logo: "LOGO.png"
-favicon_ico: ".LOGO.ico"
+logo: "assets/LOGO.png"
+favicon_ico: "assets/LOGO.ico"
 url: https://just-the-docs.github.io
 enable_copy_code_button: true;
 aux_links:
