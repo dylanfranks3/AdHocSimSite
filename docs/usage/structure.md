@@ -13,11 +13,11 @@ The general class structure of this package is based off the ns3 library with li
 See [nanNetwork, nanNode etc](https://github.com/dylanfranks3/AdHocSim/src) for an example based off of [NAN](https://ieeexplore.ieee.org/document/7096294), an Ad-Hoc networking protocol that gives nodes a roles changing their behaviour. 
 
 ## Package Structure
-![packages]({{site.url}}/assets/packages.png){:width="70%"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![packages]("assets/packages.png"){:width="70%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## Class Structure
 
-![classes]({{site.url}}/assets/classes.png){:width="90%"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![classes]("assets/classes.png"){:width="90%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## File structure
 ``` bash
