@@ -8,7 +8,7 @@ enable_copy_code_button: true;
 aux_links:
   Source: https://github.com/dylanfranks3/AdHocSim
 include: [docs,assets]
-
+baseurl: /dylan_franks3
 callouts:
   note:
     title: Note
