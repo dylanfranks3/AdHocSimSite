@@ -4,7 +4,7 @@ title: Structure
 parent: Usage
 nav_order: 1
 ---
-# Structure
+# Structure NUT
 1. TOC
 {:toc}
 The general class structure of this package is based off the ns3 library with limited dependency on it itself. The library itself has base functionality with root classes with the possibility to extend these with child classes. 
