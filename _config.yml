@@ -7,7 +7,7 @@ url: https://just-the-docs.github.io
 enable_copy_code_button: true;
 aux_links:
   Source: https://github.com/dylanfranks3/AdHocSim
-include: [docs]
+include: [docs,assets]
 
 callouts:
   note:
