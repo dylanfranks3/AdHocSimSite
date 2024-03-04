@@ -8,3 +8,8 @@ enable_copy_code_button: true;
 aux_links:
   Source: https://github.com/dylanfranks3/AdHocSim
 include: [docs]
+
+callouts:
+  note:
+    title: Note
+    color: purple

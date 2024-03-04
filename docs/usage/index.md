@@ -13,4 +13,6 @@ As described on the [Home page](/), using this tool, one can:
 
 The tool comes with two CLI tools, one for creating traffic and one for runing the simulation
 
+{: .note }
 Before customizing the codebase, it's best to understand the structure of the library. See section [Structure](structure.html) for guidence.
+

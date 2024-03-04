@@ -5,9 +5,21 @@ parent: Usage
 nav_order: 1
 ---
 # Structure
-The general stru
+The general class structure of this package is based off the ns3 library with limited dependency on it itself. The library itself has base functionality with root classes with the possibility to extend these with child classes. 
+
+{: .note }
+See [nanNetwork, nanNode etc](https://github.com/dylanfranks3/AdHocSim/src) for an example based off of [NAN](https://ieeexplore.ieee.org/document/7096294), an Ad-Hoc networking protocol that gives nodes a roles changing their behaviour. 
+
+
+![logo](/assets/classes.png){:width="120%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
 ### Network model
+
+
+
+
+
+
 
 - Simulator(class)
     - do ur things
