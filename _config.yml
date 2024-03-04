@@ -3,7 +3,7 @@ description: Documentation for Dylan Franks' Third Year Project
 theme: just-the-docs
 logo: "assets/LOGO.png"
 favicon_ico: "assets/LOGO.ico"
-url: https://dylanfranks3.github.io/AdHocSimSite
+baseurl: https://dylanfranks3.github.io/AdHocSimSite
 enable_copy_code_button: true;
 aux_links:
   Source: https://github.com/dylanfranks3/AdHocSim
