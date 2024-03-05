@@ -11,7 +11,7 @@ nav_order: 4
 ## What This CLI Does...
 The purpose of this CLI is to take a source code file defining a Simulation and create a runtime of this with customizability. 
 
- One creates a python file defining the simualation either based of their own code or the example files and passes this to the CLI using the `-d` coom
+One creates a python file defining the simulation either based of their own code or the example files and passes this to the CLI using the `-d` c
 
 The CLI is avaible at (`AdHocSim/runner/__main__.py`).
 ## Usage
@@ -31,4 +31,4 @@ options:
   -l LOGGING, --logging LOGGING
                         arg whether to show state of network post execution in stdout
 ```
-Here,
+Here, 
