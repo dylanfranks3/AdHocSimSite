@@ -1,4 +1,4 @@
-<img src='/assets/LOGO.png' width='100'>
+<img src='/assets/LOGO.png' width='300' class="center">
 
 This website is part of a larger set of work for my [Warwick University](https://warwick.ac.uk/)  Dissertation. This website served as documentation for set of work that aids in simulating, designing and visualizing custom Ad-Hoc networks. 
 
