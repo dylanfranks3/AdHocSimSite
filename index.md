@@ -4,7 +4,7 @@ description: welcome bro
 layout: default
 nav_order: 1
 ---
-![logo]({{site.baseurl}}/assets/logo.png){:width="25%"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![logo]({{site.baseurl}}/assets/LOGO.png){:width="25%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 # Home
 {: .fs-9 }
 
