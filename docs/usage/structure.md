@@ -17,7 +17,7 @@ See [nanNetwork, nanNode etc](https://github.com/dylanfranks3/AdHocSim/src) for 
 
 ## Class Structure
 
-![classes]({{site.baseurl}}/AdHocSimSite/assets/classes.png){:width="90%"}{:style="display:block; margin-left:auto; margin-right:auto"}
+![classes]({{site.baseurl}}/assets/classes.png){:width="90%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
 ## File structure
 ``` bash
