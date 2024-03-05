@@ -27,7 +27,12 @@ cd AdHocSim
 pip install -r requirements.txt
 pip list
 ``` 
+
 ### ns3
+
+{: .warning}
+Use this section as a *rough guide* for installing ns3, head over to their [main site](https://www.nsnam.org/) for a thorough explanation of installation. 
+
 3. Now, install ns3: 
 ``` bash
 mkdir ns3 

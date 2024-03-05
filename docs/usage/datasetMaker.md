@@ -74,7 +74,7 @@ Here is the canonical data file:
 For clarity,  `xPos`, `yPos` and `zPos` can have any range, but must be float. After running the simulation, they are converted to scale for visualisation.
 
 
-## Example Usage
+## Example
 Suppose we wanted to create a dataset of 30 nodes in a 300x300 meter plane over a 800 second time period with a 0.5 second interval on the granularity of the dataset: 
 ```bash
 ./__main__.py -d {datasetsAbsPathHome}/example30Nodes -nc 30 -x 300 -y 300 -t 800 -i 0.5
