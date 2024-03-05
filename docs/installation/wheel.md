@@ -9,4 +9,4 @@ nav_order: 2
 ``` bash
 pip install AdHocSim/dist/AdHocSim-0.0.1-py3-none-any.whl
 ```  
-2. [Install ns3](/docs/installation/source.html#ns3)
+2. [Install ns3]({{site.baseurl}}/docs/installation/source.html#ns3)
