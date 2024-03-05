@@ -1,4 +1,3 @@
-<img src='/assets/LOGO.png' width='300' class="center">
 
 
 <div align="center">
