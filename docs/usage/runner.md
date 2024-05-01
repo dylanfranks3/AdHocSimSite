@@ -16,6 +16,11 @@ One creates a python file defining the simulation either based of their own code
 {: .note }
 In order for Python to find AdHocSim, if you haven't installed this as a apckage, you must set the directory in your environment variable (`$PYTHONPATH`).
 
+```bash
+export PYTHONPATH="path/to/AdHocSim:$PYTHONPATH" 
+
+```
+
 The CLI is avaible at (`AdHocSim/runner/__main__.py`).
 ## Usage
 ```bash
