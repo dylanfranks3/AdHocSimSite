@@ -18,7 +18,6 @@ In order for Python to find AdHocSim, if you haven't installed this as a package
 
 ```bash
 export PYTHONPATH="path/to/AdHocSim:$PYTHONPATH" 
-
 ```
 
 The CLI is avaible at (`AdHocSim/runner/__main__.py`).
